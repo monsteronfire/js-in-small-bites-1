@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body id="main-body">
+  <div id="content"></div>
+  <script>
+    var ob = {
+      foo: 1,
+      bar: 2,
+      baz: 3
+    };
+
+    for (var fname in ob) {
+      document.writeln("object["+fname+"] = " + ob[fname]);
+    }
+  </script>
+</body>
+</html>
